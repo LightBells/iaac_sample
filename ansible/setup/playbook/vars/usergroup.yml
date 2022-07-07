@@ -1,0 +1,11 @@
+usergroup:
+  user:
+    name: web-executer
+    group: service-executer
+    uid: 200
+    gid: 200
+    password: $6$hoge$zOyVU7p6q2aLNjyi7.WZy8sgiSqUPRnQBYruV9iAIdBr5p3tqipt9ZscPHlwe8wBEW91jb4mB2fLGPY7dsRBA/
+
+  group:
+    name: service-executer
+    gid: 200

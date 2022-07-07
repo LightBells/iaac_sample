@@ -1,0 +1,9 @@
+# Ignore terraform temporary files and state files
+*.tfstate
+*.tfstate.backup
+.terraform
+.terraform.*
+
+# prevent commiting keyfiles
+*key
+*key.pub

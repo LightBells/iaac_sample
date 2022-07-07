@@ -1,0 +1,8 @@
+- hosts: web-servers
+  remote_user: ec2-user
+  sudo: yes
+  vars_files:
+    - user-list-var.yml
+  tasks:
+    - name: Create Group
+
